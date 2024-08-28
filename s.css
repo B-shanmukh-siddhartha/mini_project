@@ -33,7 +33,7 @@ main {
 #search-section {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 5em;
 }
 
 .search-container {
@@ -41,16 +41,14 @@ main {
     padding-left: 0em;
     border-radius: 10px;
     text-align: left;
+    margin-bottom: 5px;
 }
 
-.search-container h2 {
-    margin-top: 0;
-}
 
 input[type="text"] {
     padding: 0.5em;
     margin: 0.5em 0;
-    width: 100%;
+    width: 75%;
     border: none;
     border-radius: 5px;
 }
