@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTAKU NEXUS</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <header>
+        <h1>OTAKU NEXUS</h1>
+        <button id="login-button" onclick="goToLoginPage()">Login</button>
+    </header>
+    <main>
+        <section id="search-section">
+            <div class="search-container">
+                <h2>Search Anime</h2>
+                <input type="text" id="anime-search" placeholder="Search for Anime...">
+                <button onclick="search('anime')">Search</button>
+            </div>
+
+            <div class="search-container">
+                <h2>Search Writer</h2>
+                <input type="text" id="writer-search" placeholder="Search for Writer...">
+                <button onclick="search('writer')">Search</button>
+            </div>
+
+            <div class="search-container">
+                <h2>Search Genre</h2>
+                <input type="text" id="genre-search" placeholder="Search for Genre...">
+                <button onclick="search('genre')">Search</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; VMEG | CSM_C | TEAM-58 | Mini-Project | OTAKU NEXUS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
